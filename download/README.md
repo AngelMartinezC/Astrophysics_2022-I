@@ -70,6 +70,7 @@ Para ello, se puede descargar cfitsio desde los repositorios de Linux:
 
 - Ubuntu/Debian/Mint: `sudo apt install cfitsio`
 - Arch Linux/Manjaro: `sudo pacman -Syu cfitsio`
+- Fedora: `sudo dnf install cfitsio`
 
 Luego, acceder a la carpeta donde están los datos descargados y abrir una terminal allí.
 En dicha terminal escribir las siguientes líneas:
