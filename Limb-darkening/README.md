@@ -45,6 +45,7 @@ Parámetros
 
 
 </br>
+
 ### Limb\_darkening.modelo.model3(_u_, _v_):
 
 Calcula la gráfica de intensidad teórica con oscurecimiento del limbo para una función fuente como función de la profundidad.
