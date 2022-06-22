@@ -10,13 +10,14 @@ el oscurecimiento del limbo. Se consideran tres casos con diferentes
 formas funcionales y geometría del sistema.
 
 </br>
-### Limb\_darkening.modelo.model1(_tau_):
+
+### Limb_darkening.modelo.model1(_tau_):
 
 Calcula la gráfica de intensidad teórica con oscurecimiento del limbo para el caso del Sol como un cuerpo esférico emitiendo radiación de cuerpo negro de intensidad específica $B_\nu$ acompañado de una atmósfera que no emite.
 
 El oscurecimiento del limbo viene dado por:
 
-\\\[I\_\\nu(\\theta) = I\_\\nu(0)\\exp\[-\\tau\_\\nu(\\sec\\theta -1)\]\\\]
+$$I\_\\nu(\\theta) = I\_\\nu(0)\\exp\[-\\tau\_\\nu(\\sec\\theta -1)\]$$
 
 Parámetros
 
@@ -31,7 +32,7 @@ Calcula la gráfica de intensidad teórica con oscurecimiento del limbo para una
 
 Dicho oscurecimiento viene dado por la función:
 
-\\\[\\frac{I\_\\nu(\\theta)}{I\_\\nu(0)} = \\frac{(B\_{\\nu,1}-B\_{\\nu,2}) \\exp(-\\tau\_\\nu \\sec\\theta) + B\_{\\nu,2}}{(B\_{\\nu,1}-B\_{\\nu,2}) \\exp(-\\tau\_\\nu) + B\_{\\nu,2}}\\\]
+$$\\frac{I\_\\nu(\\theta)}{I\_\\nu(0)} = \\frac{(B\_{\\nu,1}-B\_{\\nu,2}) \\exp(-\\tau\_\\nu \\sec\\theta) + B\_{\\nu,2}}{(B\_{\\nu,1}-B\_{\\nu,2}) \\exp(-\\tau\_\\nu) + B\_{\\nu,2}}$$
 
 Parámetros
 
@@ -50,7 +51,7 @@ Calcula la gráfica de intensidad teórica con oscurecimiento del limbo para una
 
 Dicho modelo viene dado por:
 
-\\\[I\_\\nu(\\theta) = I\_\\nu(0)\\big\[ a\_0 + a\_1\\cos\\theta + 2a\_2\\cos\^2 \\theta \\big\]\\\]
+$$I\_\\nu(\\theta) = I\_\\nu(0)\\big\[ a\_0 + a\_1\\cos\\theta + 2a\_2\\cos\^2 \\theta \\big\]$$
 
 con:
 
@@ -72,7 +73,7 @@ Parámetros
 
 Perfil de intensidad del continuo del disco solar con una mancha solar.
 
-![Image](Limb_darkening/example.png "Perfiles del oscurecimiento del limbo con diferentes modelos")
+![Image](example.png "Perfiles del oscurecimiento del limbo con diferentes modelos")
 
 
 ### Tabla de contenido
