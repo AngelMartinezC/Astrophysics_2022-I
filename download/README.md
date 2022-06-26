@@ -76,7 +76,7 @@ Luego, acceder a la carpeta donde están los datos descargados y abrir una termi
 En dicha terminal escribir las siguientes líneas:
 
 ```bash
-    rename '.fits' '.fits.fz' *.fits   # Para renombrarlos
+    rename 's/.fits/.fits.fz' *.fits   # Para renombrarlos
     funpack -E 1 -v *.fits.fz          # Para descomprimir
     rm *.fz                            # Para eliminar los .fz
 ```
